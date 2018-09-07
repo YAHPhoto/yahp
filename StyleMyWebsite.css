@@ -1,0 +1,198 @@
+
+
+body {
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100%;
+}
+footer {
+  font-size: 14px;
+  font-style: oblique;
+}
+
+<style>
+
+  .content {
+    margin: auto;
+  }
+
+<body>
+
+  #photo {
+    font-family: 'Courier New', bold, Courier, monospace;
+    font-size: 32px;
+    color: #00000;
+    text-align:center;
+    }
+
+  p.fontstyle3 {
+    font-family: 'Museo_Slab_500italic';
+    font-family: 'Cambo', italic, serif;
+    font-family: 'Coustard', italic, serif;
+    font-family: 'Copse', italic,serif;
+    font-family: 'Courier New', bold, Courier, monospace;
+    font-size: 16px;
+    color: #00000;
+  }
+  p.fontstyle5 {
+    font-family: 'Museo_Slab_500italic';
+    font-family: 'Cambo', italic, serif;
+    font-family: 'Courier New', bold, Courier, monospace;
+    font-size: 32px;
+    color: #00000;
+  }
+  h3.fontstyle2 {
+    font-family: 'Museo_Slab_500italic';
+    font-family: 'Cambo', serif;
+    font-family: 'Coustard', serif;
+    font-family: 'Courier New', bold, Courier, monospace;
+    font-size: 22px;
+    color: #00000;
+    margin:0;
+    padding:0;
+    }
+  h3.fontstyle4 {
+    font-family: 'Courier New', bold, Courier, monospace;
+    font-family: 'Coustard', bold, serif;
+    font-family: 'Copse', bold, serif;
+    font-family: 'Veranda', bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #00000;
+    margin:0;
+    padding:0;
+    }
+    p.{
+      font-family: 'Courier New', bold, Courier, monospace;
+      font-size: 40px;
+      color: #00000;
+      text-align:center;
+    }
+  }
+</style>
+
+header {
+  align-content: center;
+}
+/*Text Fonts*/
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 35%;
+  padding-left: 3px;
+  align-content: center;
+  align-items: flex-start;
+  align-self: baseline;
+}
+.column2 {
+  float: left;
+  width: 35%;
+  padding-left: 3px;
+  align-content: left;
+  align-items: flex-start;
+  align-self: baseline;
+}
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding-left: 3px;
+  align-content: center;
+  align-items: flex-start;
+  align-self: baseline;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-content: center;
+  align-items: flex-start;
+  align-self: baseline;
+}
+figure {
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-style: bold;
+  font-size: medium;
+  font-family:'Noto Sans', sans-serif;
+  text-indent: 0;
+  margin: 1em;
+  padding: 1em;
+}
+/*Above is header and images to turn into links*/
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 2px;
+    left: 16px;
+}
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 2px;
+    right: 16px;
+}
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Code for Instagram Link*/
+<style>
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</body>
+
+{
+  background-color: white;
+  #top, #bottom, #left, #right {
+  background: #a5ebff;
+  position: fixed;
+  }
+.borderColor {/* <color> values */
+  border: .96em solid #578291
+  /* vertical | horizontal */
